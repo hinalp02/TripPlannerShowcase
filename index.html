@@ -29,8 +29,15 @@
         }
 
         header h1 {
-            font-size: 2em;
+            font-size: 2.5em;
             margin: 0;
+            font-weight: bold;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.2em;
+            color: #bdc3c7;
         }
 
         /* Container */
@@ -41,6 +48,7 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             overflow: hidden;
             margin: 20px;
+            padding: 20px;
         }
 
         .container h2 {
@@ -48,23 +56,37 @@
             color: #fff;
             padding: 15px;
             margin: 0;
-            font-size: 1.5em;
+            font-size: 1.75em;
             text-align: center;
+            font-weight: bold;
         }
 
         .container img {
             display: block;
             max-width: 100%;
             height: auto;
-            margin: 0;
+            margin: 20px 0;
             border-bottom: 2px solid #2c3e50;
         }
 
         .container p {
-            padding: 20px;
-            line-height: 1.6;
-            font-size: 1em;
-            text-align: center;
+            padding: 10px 0;
+            line-height: 1.8;
+            font-size: 1.1em;
+            text-align: justify;
+        }
+
+        /* Technology Icons */
+        .tech-icons {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .tech-icons img {
+            width: 50px;
+            height: 50px;
+            margin: 0 10px;
         }
 
         /* GitHub Link */
@@ -101,23 +123,40 @@
             box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
             margin-top: 20px;
         }
+
+        footer a {
+            color: #ecf0f1;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Hinal Patel</h1>
-        <p>Software Engineer | Front-End Developer</p>
+        <p>Software Engineer | Front-End and Back-End Developer</p>
     </header>
     <div class="container">
         <h2>Trip Planner App Design Showcase</h2>
         <img src="image0.jpeg" alt="Trip Planner App Design">
-        <p>Welcome to my Trip Planner App design showcase! This project is built using React Native and features a scalable architecture with AI-powered travel recommendations. Explore the GitHub repository to view the source code and learn more about the development process.</p>
+        <p>Welcome to the showcase of the Trip Planner App, a feature-rich iOS application that simplifies travel planning. Built with scalability and user-centric design in mind, this app integrates AI-powered travel recommendations to help users create personalized itineraries based on their preferences.</p>
+        <p>Developed using SwiftUI, the app also incorporates Firebase for efficient data storage and Node.js for dynamically managing email communications. These technologies work together to provide a seamless experience for users, with an intuitive interface and powerful backend infrastructure.</p>
+        <p>Explore the GitHub repository to view the source code and dive deeper into the app’s design, functionality, and architecture.</p>
+        <div class="tech-icons">
+            <img src="swiftui-logo.png" alt="SwiftUI">
+            <img src="firebase-logo.png" alt="Firebase">
+            <img src="nodejs-logo.png" alt="Node.js">
+        </div>
         <div class="github-link">
-            <a href="https://github.com/wen10969/TripPlanner" target="_blank">View on GitHub</a>
+            <a href="https://github.com/hinalp02/TripPlannernew/commits/main/" target="_blank">View on GitHub</a>
         </div>
     </div>
     <footer>
-        <p>&copy; 2024 Hinal Patel | Contact: <a href="mailto:hinalp2002@gmail.com" style="color: #ecf0f1;">hinalp2002@gmail.com</a></p>
+        <p>&copy; 2024 Hinal Patel | Contact: <a href="mailto:hinalp2002@gmail.com">hinalp2002@gmail.com</a> | <a href="https://www.linkedin.com/in/hinalpatel" target="_blank">LinkedIn</a></p>
     </footer>
 </body>
 </html>
+
